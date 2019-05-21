@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(250, 253, 255);
+    width: 100%;
+    min-width: 480px;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    padding-top: 7em;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+article{
+    margin: 1em auto 2em;
+    line-height: 175%;
+}
+
+article h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 150%;
+    padding-bottom: 1em;
+}
+
+#site-title {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 800;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    color: azure;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+
+header{
+    background-image: url("/FinalProject/images/banner_2.jpg");
+    background-position-y: 50%;
+    background-size: 100%;
+    
+}
+
+
+/* Navigations styles */
+
+nav > ul > li {
+    padding: 1.25em 0em;
+    width: 14.28%;
+    display: block;
+    float: left;
+    text-align: center;
+
+}
+
+header > nav {
+    border-top: 10px solid; 
+    border-top-color: #7B9BB3;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+
+
+/* Footer Styles*/
+#footer {
+    position: sticky;
+    bottom: 0;
+    border-top: 5px solid; 
+    border-top-color: #7B9BB3;
+    height: 2.0em;
+    width: 100%;
+    padding: 1.25em 0em;
+    text-align: center;
+    background-color: rgb(250, 253, 255);
+}

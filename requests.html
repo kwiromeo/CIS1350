@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CIS 1350 Final Project - Requests </title>  
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="CIS 1350 HTML & CSS - Spring 2019 - Final Project" />
+    <meta name="description" content="CIS 1350 HTML CSS - Final Project" />
+    <meta name="author" content="I. Romeo Kwihangana" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/form.css" />
+
+    <script src="scripts/year.js" defer></script> <!-- js-->
+</head>
+
+<body>
+    
+        <header>
+            <h1 id="site-title">All About Flagships</h1>
+            <nav>
+                <ul>
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href="google_flagship.html">Google</a></li>
+                    <li><a href="samsung_flagship.html">Samsung</a></li>
+                    <li><a href="apple_flagship.html">Apple</a></li>
+                    <li><a href="release.html">Releases</a></li>
+                    <li>Requests</li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+
+        <main>
+            <article>
+                <h3> Add a Flagship </h3>
+                <p> Users can request a phone to be added to the line up of phones listed on this site by filling out the form below.
+
+                </p>
+                <fieldset>
+                    <legend>
+                        Phone Addition Request
+                    </legend>
+
+                    <div class="formRow">
+                            <label for="phoneBrand">Brand</label>
+                            <!-- <input type="text" name="phoneBrandName" id="phoneBrand"> -->
+                            <select name="phoneBrandName" id="phoneBrand" size="1">
+                                <option value="Apple">Apple</option>
+                                <option value="Google">Google</option>
+                                <option value="Samsung">Samsung</option>
+                            </select>
+                    </div>
+
+                    <div class="formRow">
+                            <label for="phoneModel">Model</label>
+                            <input type="text" name="phoneModelName" id="phoneModel">
+                    </div>
+
+                    <div class="formRow">
+                            <label for="releaseDate">Date of Release</label>
+                            <input type="date" name="releaseDateEntry" id="releaseDate">
+                    </div>
+                    
+                    <div class="formRow">
+                            <label for="phoneComment">Comments</label>
+                            <!-- <input type="text" name="phoneCommentEntry" id="phoneComment"> -->
+                            <textarea name="phoneCommentEntry" id="phoneComment" cols="30" rows="10" placeholder="Enter your comments about the phone here"></textarea>
+                    </div>
+
+                </fieldset>
+               
+                        
+            </article>
+        </main>
+
+        <footer id="footer"> <p> Made with &#x2615 in Dayton | &copy; <span id="copyright-year"></span> | Romeo Kwihangana</p></footer>
+    
+
+    
+</body>
+
+
+</html>
