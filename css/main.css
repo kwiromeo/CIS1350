@@ -44,7 +44,7 @@ article h3 {
 
 
 header{
-    background-image: url("/FinalProject/images/banner_2.jpg");
+    background-image: url("../images/banner_2.jpg");
     background-position-y: 50%;
     background-size: 100%;
     
